@@ -1,0 +1,67 @@
+.recipe {
+	background-color: #fac4bb;
+	border-width: 10px;
+	border-color: black;
+	border-radius: 25px;
+	padding: 3px 0px 3px 0px;
+	margin: 0px 100px 40px 100px;
+	text-align: left;
+}
+
+.card-horizontal, .card-body {
+	background-color: #fac4bb;
+}
+
+.img-square-wrapper, .container-fluid, .card-horizontal, .card-body, .card, .col-12, .row, .container-fluid, .recipe, .the-card {
+	border-color: #fac4bb;
+}
+
+.recipe:hover {
+	transform: scale(1.1, 1.1);
+	box-shadow: 13px 13px 13px 0px rgba(0,0,0,0.5);
+}
+
+.thatonelink:hover {
+	text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+}
+
+a, h1, p, h5, h4 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.foodimg {
+	border-radius: 25px;
+	width: 225px;
+	height: 225px;
+	vertical-align: center;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+    border-radius: 25px;
+    border: none;
+}
+
+.open {
+	width: 150px;
+}
+
+.img-square-wrapper {
+	border-radius: 25px;
+}
+
+a {
+	color: white;
+}
+
+a: hover {
+	color: white;
+	text-decoration: none;
+}
